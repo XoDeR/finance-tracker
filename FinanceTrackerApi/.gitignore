@@ -1,0 +1,72 @@
+## Ignore build results
+bin/
+obj/
+artifacts/
+*.log
+*.vspscc
+*.vssscc
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pidb
+*.svclog
+
+## Ignore Visual Studio folder
+.vs/
+
+## Ignore test results
+TestResult*/
+buildlog.*
+
+## Ignore publish output
+publish/
+
+## Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+## Ignore .NET Core project artifacts
+project.lock.json
+project.fragment.lock.json
+
+## Ignore launch settings
+**/Properties/launchSettings.json
+
+## Ignore IDE settings
+.vscode/
+
+## Ignore coverage and profiler files
+*.coverage
+*.coveragexml
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## Ignore temporary files
+*.tmp
+*.tmp_proj
+*.cache
+*.dbmdl
+*.dbproj
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.vsix
+*.exe
+*.dll
+
+## Ignore Rider and ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore web static files (optional)
+# wwwroot/
